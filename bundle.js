@@ -26789,7 +26789,7 @@
 
 	exports.default = _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/', component: _app2.default },
+	    { path: '/Redux-Simple-Blog-App/', component: _app2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _posts_index2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'posts/new', component: _posts_new2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'posts/:id', component: _posts_show2.default })
