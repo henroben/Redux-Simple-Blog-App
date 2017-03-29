@@ -8,7 +8,7 @@ import PostsShow from './components/posts_show';
 
 export default (
 
-    <Route path="/Redux-Simple-Blog-App/" component={ App }>
+    <Route path="/" component={ App }>
 
         <IndexRoute component={PostsIndex} />
         <Route path="posts/new" component={PostsNew} />

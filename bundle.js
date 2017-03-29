@@ -86,7 +86,7 @@
 	_reactDom2.default.render(_react2.default.createElement(
 	  _reactRedux.Provider,
 	  { store: createStoreWithMiddleware(_reducers2.default) },
-	  _react2.default.createElement(_reactRouter.Router, { history: _reactRouter.browserHistory, routes: _routes2.default })
+	  _react2.default.createElement(_reactRouter.Router, { history: _reactRouter.hashHistory, routes: _routes2.default })
 	), document.querySelector('.container'));
 
 /***/ },
@@ -26789,7 +26789,7 @@
 
 	exports.default = _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/Redux-Simple-Blog-App/', component: _app2.default },
+	    { path: '/', component: _app2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _posts_index2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'posts/new', component: _posts_new2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'posts/:id', component: _posts_show2.default })
